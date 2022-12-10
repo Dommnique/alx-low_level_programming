@@ -5,12 +5,12 @@
  *
  * Return: Always (0)
  */
-int main (void)
+int main(void)
 {
 	int digits;
 
 	for (digits = 0; digits <= 9; digits++)
-		printf("new digit is : %d\n", digits);
+		printf("%d\n", digits);
 
 	return (0);
 }
