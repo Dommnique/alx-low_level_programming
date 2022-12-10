@@ -9,8 +9,8 @@ int main(void)
 {
 	int digits;
 
-	for (digits = 0; digits <= 9; digits++)
-		printf(" %d", digits);
+	for (digits = 0; digits < 10; digits++)
+		printf("%d", digits);
 
 	return (0);
 }
