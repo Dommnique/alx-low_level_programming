@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * ptint_alphabet - prints all alphabets in lowercase
  *
  * Return: Always(0).
  */
