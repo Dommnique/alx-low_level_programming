@@ -10,7 +10,7 @@
  * of bytes from @accept
  */
 
-unsigned int _strspn(char *s, char *accep)
+unsigned int _strspn(char *s, char *accept)
 {
 	int i, j;
 	int c = 0;
