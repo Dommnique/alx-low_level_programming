@@ -6,7 +6,8 @@
  * sum_them_all - a function that returns the sum of all its parameters.
  * @n: argument count
  *
- * Return: 0.
+ * Return: If n == 0 - 0
+ *         Otherwise - the sum of the parameters.
  */
 
 
