@@ -9,12 +9,6 @@
  * Return: 0.
  */
 
-int main(void)
-{
-	printf("Sum: %d\n", sum_them_all(3, 67, 86, 22));
-
-	return (0);
-}
 
 int sum_them_all(const unsigned int n, ...)
 {
@@ -22,7 +16,7 @@ int sum_them_all(const unsigned int n, ...)
 
 	va_start(list, n);
 
-	int i;
+	unsigned int i;
 	int sum = 0;
 
 	if (n == 0)
